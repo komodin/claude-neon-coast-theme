@@ -21,11 +21,11 @@ Light mode is a peach and turquoise dawn with golden details. Dark mode is an in
 
 The full guide, with the complete source of every file, is in [neon-coast-theme.en.md](neon-coast-theme.en.md).
 
-The quickest way is to open a Claude Code session, attach that file and write:
+The quickest way is to open a Claude Code session and ask it to install the guide from this repo:
 
-> Install the theme from this file: create the folder `~/claude-themes/neon-coast` with its files and activate it with method A.
+> Install the theme from https://github.com/komodin/claude-neon-coast-theme/blob/main/neon-coast-theme.en.md: create the folder `~/claude-themes/neon-coast` with its files and activate it with method A.
 
-Then open a new session. To do it by hand, follow the steps in the guide: create the folder and the four files, then run:
+Then open a new session. If Claude cannot open the link, download the guide and attach it to the session instead. To do it by hand, follow the steps in the guide: create the folder and the four files, then run:
 
 ```bash
 claude plugin marketplace add ~/claude-themes/neon-coast
